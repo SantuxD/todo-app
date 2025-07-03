@@ -1,0 +1,7 @@
+server:
+  port: ${PORT}
+
+spring:
+  application:
+    name: todo-app-backend
+
