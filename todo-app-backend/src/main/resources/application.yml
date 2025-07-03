@@ -4,4 +4,8 @@ server:
 spring:
   application:
     name: todo-app-backend
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+
 
